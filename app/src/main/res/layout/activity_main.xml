@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_green_light"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="165dp"
+        android:layout_height="54dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="74dp"
+        android:text="معلومة اليوم"
+        android:textColor="@android:color/background_light"
+        android:textSize="35sp" />
+
+    <TextView
+        android:id="@+id/factTextView"
+        android:layout_width="354dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:fontFamily="cursive"
+        android:text="تعيش جميع انواع الاسماك في المحيط الهادي لانه يعتبر اكبر محيط في العالم"
+        android:textColor="@android:color/background_light"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/factButton"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="38dp"
+        android:background="@android:color/background_dark"
+        android:text="اعطني معلومة جديدة"
+        android:textColor="@android:color/background_light"
+        android:textSize="20sp" />
+
+</RelativeLayout>
